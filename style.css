@@ -1,0 +1,85 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.flexible-continer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 5%;
+}
+.second-section {
+    margin:0 5%;
+}
+.half-width{
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+}
+.half-width img{
+    width: 80%;
+}
+.second-half {
+    text-align: right;
+}
+h1{
+    font-size: 50px;
+    text-align: left;
+}
+.h2{
+    text-align: center;
+    color: orange;
+}
+.color{
+    color: brown;
+}
+.btn{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.border{
+    border-left: 5px solid ;
+    border-image: linear-gradient(tomato,salmon);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+.box-item img{
+    width: 40%;
+}
+.middle-part{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.box-item{
+    width: 30%;
+    padding-left: 20px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px brown;
+
+}
+.mission-back-color{
+    background-color: rgb(169, 221, 241);
+}
+.vission-back-color{
+    background-color:white;
+}
+
+.goals-back-color{
+    background-color: peachpuff;
+}
+
+footer h2 {
+    text-align: center;
+    font-family:serif;
+}
+footer small{
+    text-align: center;
+    display: block;
+}
+.footer-section{
+    background-color:cadetblue;
+    padding: 30px;
+}
+
